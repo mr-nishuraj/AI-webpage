@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #141e30, #243b55);
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.nav-links {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-links li {
+    margin: 0 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.sign-up {
+    background-color: #FF007A;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.hero-section {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-section h1 {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.active-users {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.active-users img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.active-users p {
+    font-size: 18px;
+}
+
+.description {
+    max-width: 600px;
+    margin: 20px auto;
+    font-size: 18px;
+    color: #B0B0B0;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.feature {
+    margin: 0 20px;
+    text-align: center;
+}
+
+.feature span {
+    display: block;
+    margin-top: 10px;
+    color: #B0B0B0;
+}
+
+.get-started {
+    background-color: #00F0FF;
+    padding: 15px 30px;
+    border-radius: 25px;
+    color: #141e30;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.video-section {
+    display: flex;
+    justify-content: center;
+    margin: 60px 0;
+}
+
+.video-thumbnail {
+    text-align: center;
+}
+
+.video-thumbnail img {
+    width: 80px;
+}
+
+.video-thumbnail p {
+    margin-top: 10px;
+    color: #B0B0B0;
+}
+
+footer {
+    padding: 40px;
+    background-color: #0b0e15;
+    text-align: center;
+}
+
+.partners img {
+    margin: 0 15px;
+    width: 100px;
+    opacity: 0.7;
+}
